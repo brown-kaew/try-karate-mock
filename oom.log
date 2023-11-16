@@ -1,0 +1,12 @@
+try-karate-mock on  main took 6s 
+❯ tail nohup.out   
+java.lang.OutOfMemoryError: Java heap space
+20:16:54.194 [armeria-common-worker-nio-2-2]  DEBUG com.intuit.karate - scenario matched at line 6: pathMatches('/payments') && methodIs('POST') && karate.get('request.payment_id') == 'test1234'
+20:16:54.295 [armeria-common-worker-nio-2-2]  WARN  c.l.a.server.HttpResponseSubscriber - [id: 0xe697f7dd, L:/0:0:0:0:0:0:0:1:8085 - R:/0:0:0:0:0:0:0:1:51979] Unexpected exception from a service or a response publisher: com.intuit.karate.http.HttpServerHandler@4313c129
+java.lang.OutOfMemoryError: Java heap space
+20:16:54.377 [armeria-common-worker-nio-2-1]  DEBUG com.intuit.karate - scenario matched at line 6: pathMatches('/payments') && methodIs('POST') && karate.get('request.payment_id') == 'test1234'
+20:16:54.476 [armeria-common-worker-nio-2-1]  WARN  c.l.a.server.HttpResponseSubscriber - [id: 0x08b6407a, L:/0:0:0:0:0:0:0:1:8085 - R:/0:0:0:0:0:0:0:1:51978] Unexpected exception from a service or a response publisher: com.intuit.karate.http.HttpServerHandler@4313c129
+java.lang.OutOfMemoryError: Java heap space
+20:16:54.568 [armeria-common-worker-nio-2-3]  DEBUG com.intuit.karate - scenario matched at line 6: pathMatches('/payments') && methodIs('POST') && karate.get('request.payment_id') == 'test1234'
+20:16:54.679 [armeria-common-worker-nio-2-3]  WARN  c.l.a.server.HttpResponseSubscriber - [id: 0x19017419, L:/0:0:0:0:0:0:0:1:8085 - R:/0:0:0:0:0:0:0:1:51957] Unexpected exception from a service or a response publisher: com.intuit.karate.http.HttpServerHandler@4313c129
+java.lang.OutOfMemoryError: Java heap space
